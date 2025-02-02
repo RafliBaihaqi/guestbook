@@ -81,7 +81,7 @@ jobs:
       with:
         name: 'guestbook'
         file: 'docker-stack.yaml'
-        host: zenful.cloud
+        host: vps.raflibaihaqi.me
         user: deploytest
         ssh_key: ${{ secrets.DEPLOY_SSH_KEY }}
         env_file: './env'
